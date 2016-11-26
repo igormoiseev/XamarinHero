@@ -1,0 +1,10 @@
+Free courses:
+
+https://mva.microsoft.com/en-US/training-courses/xamarin-for-absolute-beginners-16182?l=fPHWqptJC_5705846048
+
+Certificate is optional, but it costs 25 USD:   
+https://www.edx.org/course/introduction-xamarin-forms-microsoft-dev215x
+
+
+
+
