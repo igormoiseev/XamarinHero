@@ -10,14 +10,14 @@
 
 Azure Web Apps makes deploying Web sites extraordinarily easy – and not just Web sites built using the Microsoft stack. You can deploy PHP apps that use MySQL just as easily as ASP.NET apps that use SQL Server. You can select from a wide variety of Web App templates or build templates of your own. You can configure Web Apps to auto-scale as traffic increases to ensure that your customers aren’t left waiting during periods of peak demand. You can publish apps to pre-production staging locations and test them in the cloud before taking them live, and then swap staging deployments for production deployments with the click of a button. You can even create WebJobs – programs or scripts that run continuously or on a schedule to handle billing and other time-critical tasks. In short, Azure Web Apps takes the pain out of publishing and maintaining Web apps and are just as suitable for a personal photo-sharing site as they are for enterprise-grade sites serving millions of customers.
 
-In this lab, you will use the cross-platform [Visual Studio Code](https://code.visualstudio.com/)  editor to build a Web site that uses [PHP](http://php.net/) server-side scripting. The site will allow you to upload, browse, and display photos, and it will store photos in a [MySQL](http://www.mysql.com/) database. You will then provision a new Azure Web App to host the site. Finally, you will upload the site's content to the newly provisioned Web App and view it in your browser.
+In this lab, you will use the cross-platform [Visual Studio Code](https://code.visualstudio.com/)  editor to build a Web site . The site will just show random text. You will then provision a new Azure Web App to host the site. Finally, you will upload the site's content to the newly provisioned Web App and view it in your browser.
 
 <a name="Objectives"></a>
 ### Objectives ###
 
 In this hands-on lab, you will learn how to:
 
-- Use Visual Studio Code to build a PHP and MySQL Web site
+- Use Visual Studio Code to build a  Web site
 - Provision an Azure Web App to host the Web site
 - Deploy the Web site using FTP
 
