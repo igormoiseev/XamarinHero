@@ -1,7 +1,7 @@
-# Xamarin-Unplugged
-Xamarin Unplugged Files
-
-Installing Visual Studio is not enough.... There is another 2 hours plus of downloading and installing to get to your first successful Xamarin hello world app.
+# Xamarin Hero
+Xamarin Hero Nigeria
+Installing Visual Studio is not enough.... 
+There is another 2 hours plus of downloading and installing to get to your first successful Xamarin hello world app.
 Step 1
 Install VS 2015 + the Xamarin extension:  https://msdn.microsoft.com/en-us/library/mt613162.aspx 
 
