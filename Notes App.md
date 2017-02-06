@@ -20,7 +20,7 @@ Click on Browse
  
  
  
-4.	when it’s completed, search for Plugin.SQLite by Houssem Dellai and repeat the same installation process done on step 3 step .
+4.when it’s completed, search for Plugin.SQLite by Houssem Dellai and repeat the same installation process done on step 3 step .
  
  ![Alt text](./images/test4.png "Xamarin2")
  
@@ -30,11 +30,13 @@ To delete  you click on the folder and right click and select the delete option.
 *** 
 When that’s done roll up your sleeves and let’s get dirty, ahem, I meant to work. Let’s get to work.
 Everything we are going to be doing would be in our  {App Nam} ( Portable ) folder at the top left of your Visual studio  folder. 
-5.	Create a class and call it Note.cs, this would be our Note model class and replace the code.
+5.Create a class and call it Note.cs, this would be our Note model class and replace the code.
+
 Right Click on your App Portable Project folder {app name} (Portable) click on the Add Option, click on class.cs then rename the file to Note.Cs
 Replace the code below with the code in the file
-using SQLite;
 
+
+using SQLite;
 namespace Notes
 {
     public class Note
@@ -48,8 +50,10 @@ namespace Notes
 
 fix namespace errors. (Note on the 5th Line “ public class Note “ Change Note to your App Name
 
-6.	Now that’s done we need to setup our database. Create a new Class and call it {yourappname}Database.cs and replace the code
+6.Now that’s done we need to setup our database. Create a new Class and call it {yourappname}Database.cs and replace the code
 Import using statements and fix namespace errors.
+
+
 using SQLite;
 using System.Collections.Generic;
 using System.Linq;
@@ -98,8 +102,9 @@ namespace Notes
 }
 This class will setup and handle our CRUD (CRUD is an acronym for the four basic types of SQL commands: Create , Read , Update , Delete ) operations in our database.
 
-7.	When that’s done Open the App.xaml.cs file and make it look like this:
+7.When that’s done Open the App.xaml.cs file and make it look like this:
 Click on the right facing arrow on App.xaml it would displace the App.xaml.cs file click on it 
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -152,13 +157,14 @@ namespace Notes2
 
 This would create a static instance of our database to utilize throughout our application. You may get an error in the MainPage area. No worries, let’s go create the pages.
 
-8.	Add a new xaml page and name it NotesListPage.xaml
+8.Add a new xaml page and name it NotesListPage.xaml
 Add >> new item >>forms Xaml Page  rename  NotesListPage.xaml
 
  ![Alt text](./images/test8.png "Xamarin2")
  
 
  Add the Listview and define its template in your xaml:
+ 
 <ContentPage.ToolbarItems>
     <ToolbarItem Text="+" 
                  Clicked="AddItem">
@@ -185,6 +191,8 @@ Check to fix any impending errors that may arise. We have defined our Listview a
 
 
 9. In the code behind, NotelistPage.xaml.cs adjust the code to look like this:
+
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -236,8 +244,9 @@ Again remember to fix namespace errors if they come up.
 
 
 10.Now we are done with the landing page which shows our lists of notes with a ‘+’ button on the toolbar to add a new note, let’s go ahead and create a page which would serve as a note editor. Create a new xaml page name NotePage.xaml and adjust the code:
-<?xml version="1.0" encoding="utf-8"?>
 
+
+<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Notes.NotePage"
@@ -268,6 +277,8 @@ Again remember to fix namespace errors if they come up.
 
 
 11. This creates a new page with and entry and an editor control to input text: Title of note and Note Details with a toolbar options menu containing the speak and delete items. Let’s go over to the code behind to add functionality to the page.
+
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
